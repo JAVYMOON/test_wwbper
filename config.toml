@@ -1,5 +1,6 @@
 # Site settings
-baseURL = "http://example.org/"
+baseURL = "/"
+
 languageCode = "en-us"
 title = "Forty"
 theme = "forty"
@@ -17,8 +18,8 @@ googleAnalytics = ""
   # CSS class.
 
   # Provide your metadata here.
-  name = "Your name"
-  description = "Your description"
+  name = "Javiera Silva"
+  description = "Curiosa empedernida"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -35,8 +36,8 @@ googleAnalytics = ""
 
   # Navigation Section
   [params.navigation]
-    title = "Forty"
-    subtitle = "By HTML5 Up"
+    title = "Budapets"
+    subtitle = "Comida orgánica"
     menu = "Menu"
     # Optional logo as brand stored in img/
     # logo = "logo.png"
@@ -79,9 +80,9 @@ googleAnalytics = ""
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Hi, my name is Forty"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "Comida Orgánica para tu Ser Especial "
+    subtitle = "Súper Premium sin colorantes ni aromatizantes artificiales."
+    buttonText = "COMENCEMOS"
 
 
   # Tiles Section
@@ -90,7 +91,7 @@ googleAnalytics = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
+      title = "Miniwell--"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic01.jpg"
       url = "blogs/aliquam"
@@ -136,12 +137,10 @@ googleAnalytics = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    title = " Nuestro Manifiesto"
+    subtitle = """ Porque amamos a los animales y protegemos el medioambiente,
+   buscamos y ofrecemos para nuestros queridos peludos una saludable y sabrosa comida orgánica sin colorantes ni aromatizantes artificiales
+   y libre de granos como los de la soja y cereales."""
     buttonText = "Get Started"
     url = "blogs"
 
@@ -170,42 +169,35 @@ googleAnalytics = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "javfrancs@gmail.com"
 
     [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    title = "Teléfono-Whatsaap"
+    phone = "(569) 743-000-846"
 
     [[params.contact.address]]
-    title = "Address"
-    street = "Street"
-    city = "City, ST 00000"
-    country = "Country"
+    title = "Dirección"
+    street = "Cirujano Guzmán 70"
+    city = "Povidencia, Santiago"
+    country = "Chile"
 
   # Footer section
   [params.footer]
     enable = true
     copyright = "Company Name"
 
-    [[params.footer.social]]
-      icon = "fa-twitter"
-      url= "https://www.twitter.com"
-      label = "Twitter"
+    
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/BudapetsChile/"
       label = "Facebook"
 
     [[params.footer.social]]
       icon = "fa-instagram"
-      url= "https://www.instagram.com"
+      url= "https://www.instagram.com/budapetschile/"
       label = "Instagram"
     
-    [[params.footer.social]]
-      icon = "fa-github"
-      url= "https://www.github.com"
-      label = "GitHub"
 
     [[params.footer.social]]
       icon = "fa-linkedin"

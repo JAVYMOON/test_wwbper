@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Forty"
 theme = "forty"
@@ -89,7 +89,7 @@ googleAnalytics = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
+      title = "Miniwell"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic01.jpg"
       url = "blogs/aliquam"
